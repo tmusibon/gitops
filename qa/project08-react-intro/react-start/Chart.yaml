@@ -1,0 +1,4 @@
+apiVersion: v2
+version: 0.1.0
+name: react-start
+description: Chart to configure ArgoCD with the react-start project and its applications
