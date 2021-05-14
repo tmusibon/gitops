@@ -1,0 +1,4 @@
+apiVersion: v2
+version: 0.1.0
+name: go-gin
+description: Chart to configure ArgoCD with the go-gin project and its applications

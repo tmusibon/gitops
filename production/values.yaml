@@ -1,0 +1,257 @@
+global: {}
+argocd-config:
+  repoUrl: "http://gogs.tools:3000/toolkit/gitops.git"
+  project: toolkit-qa
+  applicationTargets:
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project01-qa
+      applications:
+        - name: qa-project01-app
+          path: qa/project01/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project02-qa
+      applications:
+        - name: qa-project02-app
+          path: qa/project02/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project03-qa
+      applications:
+        - name: qa-project03-app
+          path: qa/project03/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project04-qa
+      applications:
+        - name: qa-project04-app
+          path: qa/project04/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project05-qa
+      applications:
+        - name: qa-project05-app
+          path: qa/project05/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project06-qa
+      applications:
+        - name: qa-project06-app
+          path: qa/project06/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project07-qa
+      applications:
+        - name: qa-project07-app
+          path: qa/project07/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project08-qa
+      applications:
+        - name: qa-project08-app
+          path: qa/project08/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project09-qa
+      applications:
+        - name: qa-project09-app
+          path: qa/project09/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project10-qa
+      applications:
+        - name: qa-project10-app
+          path: qa/project10/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project11-qa
+      applications:
+        - name: qa-project11-app
+          path: qa/project11/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project12-qa
+      applications:
+        - name: qa-project12-app
+          path: qa/project12/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project13-qa
+      applications:
+        - name: qa-project13-app
+          path: qa/project13/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project14-qa
+      applications:
+        - name: qa-project14-app
+          path: qa/project14/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project15-qa
+      applications:
+        - name: qa-project15-app
+          path: qa/project15/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project16-qa
+      applications:
+        - name: qa-project16-app
+          path: qa/project16/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project17-qa
+      applications:
+        - name: qa-project17-app
+          path: qa/project17/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project18-qa
+      applications:
+        - name: qa-project18-app
+          path: qa/project18/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project19-qa
+      applications:
+        - name: qa-project19-app
+          path: qa/project19/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project20-qa
+      applications:
+        - name: qa-project20-app
+          path: qa/project20/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project21-qa
+      applications:
+        - name: qa-project21-app
+          path: qa/project21/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project22-qa
+      applications:
+        - name: qa-project22-app
+          path: qa/project22/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project23-qa
+      applications:
+        - name: qa-project23-app
+          path: qa/project23/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project24-qa
+      applications:
+        - name: qa-project24-app
+          path: qa/project24/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project25-qa
+      applications:
+        - name: qa-project25-app
+          path: qa/project25/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project26-qa
+      applications:
+        - name: qa-project26-app
+          path: qa/project26/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project27-qa
+      applications:
+        - name: qa-project27-app
+          path: qa/project27/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project28-qa
+      applications:
+        - name: qa-project28-app
+          path: qa/project28/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project29-qa
+      applications:
+        - name: qa-project29-app
+          path: qa/project29/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project30-qa
+      applications:
+        - name: qa-project30-app
+          path: qa/project30/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project31-qa
+      applications:
+        - name: qa-project31-app
+          path: qa/project31/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project32-qa
+      applications:
+        - name: qa-project32-app
+          path: qa/project32/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project33-qa
+      applications:
+        - name: qa-project33-app
+          path: qa/project33/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project34-qa
+      applications:
+        - name: qa-project34-app
+          path: qa/project34/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: project35-qa
+      applications:
+        - name: qa-project35-app
+          path: qa/project35/app
+          type: helm
+    - targetRevision: master
+      createNamespace: true
+      targetNamespace: projectdemo-qa
+      applications:
+        - name: qa-projectdemo-app
+          path: qa/projectdemo/app
+          type: helm
