@@ -1,0 +1,3 @@
+global: {}
+react-start:
+  replicaCount: 1
