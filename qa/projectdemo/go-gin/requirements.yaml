@@ -1,0 +1,5 @@
+dependencies:
+  - name: go-gin
+    version: 1.0.0
+    repository: >-
+      http://artifactory-artifactory.tools:8082/artifactory/generic-local/projectdemo-dev
