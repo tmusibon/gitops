@@ -1,0 +1,3 @@
+global: {}
+brucesaturday:
+  replicaCount: 1
