@@ -1,0 +1,4 @@
+apiVersion: v2
+version: 0.1.0
+name: react-kkumaran-dev-gogs-repo-1
+description: Chart to configure ArgoCD with the react-kkumaran-dev-gogs-repo-1 project and its applications
