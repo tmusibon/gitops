@@ -1,0 +1,4 @@
+apiVersion: v2
+version: 0.1.0
+name: mvp-project
+description: Chart to configure ArgoCD with the mvp-project project and its applications
