@@ -1,0 +1,3 @@
+global: {}
+francine-new-react:
+  replicaCount: 1

@@ -1,0 +1,4 @@
+apiVersion: v2
+version: 0.1.0
+name: react-mm
+description: Chart to configure ArgoCD with the react-mm project and its applications

@@ -1,0 +1,4 @@
+apiVersion: v2
+version: 0.1.0
+name: francine-new-react
+description: Chart to configure ArgoCD with the francine-new-react project and its applications
