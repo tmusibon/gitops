@@ -1,0 +1,3 @@
+global: {}
+agile-metrics:
+  replicaCount: 1
