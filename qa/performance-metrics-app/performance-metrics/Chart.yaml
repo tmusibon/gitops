@@ -1,0 +1,4 @@
+apiVersion: v2
+version: 0.1.0
+name: performance-metrics
+description: Chart to configure ArgoCD with the performance-metrics project and its applications

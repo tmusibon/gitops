@@ -1,0 +1,3 @@
+global: {}
+performance-metrics:
+  replicaCount: 1
