@@ -1,0 +1,3 @@
+global: {}
+squad3-repo:
+  replicaCount: 1
