@@ -1,4 +1,4 @@
 apiVersion: v2
-version: 0.1.0
+version: 0.1.1
 name: squad6-react-metrics-dev
 description: Chart to configure ArgoCD with the squad6-react-metrics-dev project and its applications
